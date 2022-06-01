@@ -1,19 +1,16 @@
 ---
 layout: page
-title: "404: Sayfa Bulunamadı"
+title: "404: Page not found"
 permalink: /404.html
 
 redirect_from:
   - /norobots/
   - /assets/
   - /posts/
-
-dynamic_title: true
 ---
 
+{% include lang.html %}
+
 <div class="lead">
-  <p>Üzgünüz. Bu URL, var olmayan bir sayfaya işaret ediyor. </p>
-  <p>
-    Sayfayı aramaya devam etmek için <Ana href="{{ '/' | relative_url }}">Ana Sayfa</a>'ya dönebilir veya <a href="{{ 'archives' | relative_url }}">Arşivler</a> sayfasında ilgili sayfayı arayabilirsiz.
-  </p>
+  <p>{{site.data.locales[lang].not_found.statment }}</p>
 </div>
