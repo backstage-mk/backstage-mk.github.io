@@ -1,21 +1,19 @@
 # Site settings
-title: Mauricio Urraco
-description: Jekyll Theme Minimal Resume
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+title: Mümin Köykıran
+description: Portfolyo Sayfası
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://muminkoykiran.com.tr" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Mauricio Urraco
-user_description: I'm a Software Engineer from Argentina, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in world of Giving Circles working with Grapevine, a California based startup trying to improve the world through collaborative giving. I'm the first engineer they hired to work on the platform.
-user_title: Software Engineer
-email: mauriurraco@gmail.com
-# twitter_username: lorem_ipsum
-instagram_username: mauriciourraco7
-facebook_username: mauricio.urraco
-linkedin_username: murraco
-github_username:  murraco
-# medium_username: lorem_ipsum
-# medium_url: lorem_ipsum.medium.com
+username: Mümin Köykıran
+user_description: I am a Computer Scientist who likes and interests DevOps culture and Secure Systems Development Life Cycle (SDLC), Free and Open Source Softwares and Linux.
+user_title: DevOps Engineer
+email: muminkoykiran@gmail.com
+twitter_username: MrKoykiran
+github_username:  muminkoykiran
 # gplus_username:  lorem_ipsum
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ['package.json', 'src' , 'node_modules', 'vendor']
+
+google_analytics:
+  id: 'G-BPTZ4Z00PK'              # fill in your Google Analytics ID
